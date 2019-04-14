@@ -3,7 +3,7 @@ require "selenium-webdriver"
 require_relative '../lib/page_objects/main_page'
 
 describe 'Testing cart', :cart do
-  it 'Adding T-shirt to cart successful' do
+  it 'Verify checkout parameters' do
     browser = Selenium::WebDriver.for :chrome
     url = 'http://automationpractice.com/index.php'
 

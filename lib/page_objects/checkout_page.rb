@@ -14,5 +14,4 @@ class CheckoutPage
   def total_price
     @browser.find_element(:css, '#total_price')
   end
-
 end
